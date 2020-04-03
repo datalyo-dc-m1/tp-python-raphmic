@@ -8,11 +8,11 @@ print('le carré de ', x ,'vaut', xI*xI)
 '''
 
 #EXO 2
-'''
+
 for i in range(0, 20):  # pour i allant de 0 à 5 par pas de 1
     if i%2 == 0:
         print(i)
-'''
+
 
 #EXO 3
 # calcule la somme des n premiers nombres impairs
@@ -39,6 +39,7 @@ else:
         print(i)
 '''
 #Exo 5
+'''
 #Calculette
 print('Donnez le premier nombre ;')
 nb1 = input()
@@ -62,4 +63,4 @@ elif op == '/' :
         print(nb1I/nb2I)
 else:
     print("opération inexistante")
-
+'''
