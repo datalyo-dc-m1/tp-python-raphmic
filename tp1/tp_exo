@@ -28,6 +28,7 @@ print(somme)
 
 #EXO 4
 #Affiche les n premiers entier
+'''
 print('Donnez un nombre entre 1 et 100')
 n = input()
 nI = int(n)
@@ -36,3 +37,29 @@ if nI < 1 or nI > 100:
 else:
     for i in range(1,nI+1):
         print(i)
+'''
+#Exo 5
+#Calculette
+print('Donnez le premier nombre ;')
+nb1 = input()
+nb1I = int(nb1)
+print('Donnez le deuxième nombre ;')
+nb2 = input()
+nb2I = int(nb2)
+print('Donnez le symbole de l opération ;')
+op = input()
+
+if op == '+':
+    print(nb1I+nb2I)
+elif op == '-':
+    print(nb1I-nb2I)
+elif op == '*' :
+    print(nb1I*nb2I)
+elif op == '/' :
+    if nb2I == 0 :
+        print("opération impossible")
+    else:
+        print(nb1I/nb2I)
+else:
+    print("opération inexistante")
+
