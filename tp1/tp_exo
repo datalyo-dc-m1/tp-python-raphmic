@@ -66,7 +66,7 @@ else:
     print("opération inexistante")
 """
 
-""" exo imc"""
+""" exo imc
 print("Nous allons calculer votre indice de masse corporelle, veuillez renseigner votre taille et votre poid")
 print("taille en mètres?")
 _taille = float(input())
@@ -86,3 +86,6 @@ elif _imc > 29.9 and _imc <= 40 :
     print("vous etes en obésité")
 elif _imc > 40 :
     print("vous etes en obésité sévère")
+"""
+#devinette
+from random import randint;
