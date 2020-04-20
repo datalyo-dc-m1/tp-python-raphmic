@@ -8,10 +8,11 @@ print('le carré de ', x ,'vaut', xI*xI)
 '''
 
 #EXO 2
-
-for i in range(0, 20):  # pour i allant de 0 à 5 par pas de 1
+'''
+for i in range(0,20,):  # pour i allant de 0 à 5 par pas de 1
     if i%2 == 0:
         print(i)
+'''
 
 
 #EXO 3
@@ -38,8 +39,8 @@ else:
     for i in range(1,nI+1):
         print(i)
 '''
+"""
 #Exo 5
-'''
 #Calculette
 print('Donnez le premier nombre ;')
 nb1 = input()
@@ -63,4 +64,25 @@ elif op == '/' :
         print(nb1I/nb2I)
 else:
     print("opération inexistante")
-'''
+"""
+
+""" exo imc"""
+print("Nous allons calculer votre indice de masse corporelle, veuillez renseigner votre taille et votre poid")
+print("taille en mètres?")
+_taille = float(input())
+if _taille == 0.0:
+    print("erreur dans la saisie de la taille")
+_taillecarre = _taille*_taille;
+print("poids en kg ?")
+_poids = float(input())
+_imc = _poids / _taillecarre
+if _imc <= 18.5:
+    print("vous etes maigre")
+elif _imc > 18.5 and _imc <= 24.9 :
+    print("vous etes normal")
+elif _imc > 24.9 and _imc <= 29.9 :
+    print("vous etes en surpoids")
+elif _imc > 29.9 and _imc <= 40 :
+    print("vous etes en obésité")
+elif _imc > 40 :
+    print("vous etes en obésité sévère")
